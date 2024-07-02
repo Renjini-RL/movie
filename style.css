@@ -1,0 +1,67 @@
+@import url('http://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background: black;
+    font-family: 'Oswald', sans-serif; /* Applying Oswald font to the entire body */
+}
+
+.backgroundImage {
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    display: flex; /* Ensuring backgroundImage covers entire viewport */
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+}
+
+h1 {
+    padding-top: 3%;
+    color: white; /* Setting text color for h1 */
+}
+
+#a1 {
+    background-color: chartreuse;
+}
+
+.movies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    margin-top: 10%;
+    color: white;
+    justify-content: center;
+}
+
+.movies li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.movies li img {
+    max-width: 200px;
+    border-radius: 12px;
+}
+
+.movies li h2 {
+    font-size: 1.8em;
+    padding: 15px 10px 0;
+    margin-top: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Corrected class name to 'itembox' */
+.itembox {
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
