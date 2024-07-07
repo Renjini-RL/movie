@@ -4,7 +4,7 @@ body{
     background: black;
 }
 .backgroundImage{
-    background-image: url(images/background\ \ image.jpg);
+    background-image: url(image/film.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
     width: auto;
