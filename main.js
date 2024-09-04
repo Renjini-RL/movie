@@ -17,7 +17,8 @@ fetch(`https://imdb8.p.rapidapi.com/auto-complete?q=${moviename}%20`, options)
 	.then(response => response.json())
 	.then(data  => {
 		const list =data.d;
-
+		console.log(data)
+	
 		list.map((item) => {
 			const name = item.l;
 			const poster = item.i.imageUrl;
